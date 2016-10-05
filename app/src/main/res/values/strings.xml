@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Toned</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_detail">TONED</string>
+
+    <!-- Progress Bar default text -->
+    <string name="card_native_progressbar_text">Loading...</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="video_close_button">Close Video</string>
+
+    <string name="about_natalie_jill">About Natalie Jill</string>
+    <string name="about_paragraph">
+    \n
+    I lost a house, my marriage, my retirement and I gained a lot of weight. Turned it around, got my life back and became an inspiration to others.\n\nI am probably a lot like you. I am a single mom, I work full time and i am over 40(43 now!). I have had back issues and all of my workouts are designed to prevent back pain and lesson symptoms.\n\nI gained over 50 lbs while pregnant. I now have abs all the time and believe ANYONE can have abs, without crazy starvation diets or endless crunches.\n\nNo matter WHAT your situation is, no matter WHERE you are starting from and no matter WHAT you are facing, there is always hope and possibility.\n\nI know you can be next. I WANT you to be next. I did all of the thinking and testing on myself, friends and then tens of thousands of people later, I’ve made it SIMPLE for you.\n\nWith that in mind, I’ve created this app which is packed with fun and super effective workouts. For a small monthly fee, you will have access to content people pay an arm and leg for — new workouts and exercise videos are added weekly! Join me and let\’s turn your life around! :)\n\n
+
+    XOXO Natalie Jill\n
+    </string>
+    <string name="go_premium">Go Premium</string>
+    <string name="a_message_from_natalie">A MESSAGE FROM NATALIE</string>
+
+    <string name="unlimited_access_title">Unlimited Access</string>
+    <string name="unlimited_access_description">Switch it up! New workouts and \n exercise videos added weekly </string>
+    <string name="all_about_you_title">It\'s all about YOU</string>
+    <string name="all_about_you_description">I\'ve done the work on myself, \n you\'re next </string>
+
+    <string name="bookmark">Bookmark</string>
+    <string name="my_account">My Account</string>
+    <string name="share_the_love">Share the Love</string>
+    <string name="feedback_and_support">Feedback &amp; Support</string>
+    <string name="profile">Profile</string>
+
+    <string name="sku_monthly_subscription">unlimited_access.monthly</string>
+    <string name="sku_yearly_subscription">unlimited_access.yearly</string>
+    <string name="descriptor_close_video_button">close button</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="checkbox_content_descriptor">Exercise complete checkbox</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="no_bookmarks_text">No bookmarked workouts</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="email_subject_message">Hi Natalie</string>
+    <string name="email_intro">Dear Natalie,\n\n</string>
+    <string name="email_intent_message">Send Natalie a message</string>
+    <string name="email_subject_request">Natalie, I have a request</string>
+    <string name="email_intent_request">Make a request</string>
+    <string name="sms_message">"Check out this awesome workout app called Toned, by Natalie Jill! "</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="disconnected_title">Network connection unavailable</string>
+    <string name="disconnected_message">Please try again when you have reconnected.</string>
+    <string name="title_activity_network_disconnected">You\'ve been disconnected</string>
+    <string name="exercise_timer_text_default">00</string>
+    <string name="descriptor_exercise_timer_check">Exercise completed check</string>
+    <string name="title_activity_list">TONED</string>
+    <string name="subscription_yearly_price">$39.99/year</string>
+    <string name="subscription_monthly_price">$4.99/month</string>
+    <string name="subscription_monthly">Monthly</string>
+    <string name="subscription_yearly">Yearly</string>
+    <string name="settings_terms">Terms &amp; Conditions</string>
+    <string name="setting_privacy">Privacy Policy</string>
+    <string name="settings_legal">Legal</string>
+    <string name="title_activity_show_document">ShowDocumentActivity</string>
+    <string name="learn_expand">LEARN MORE</string>
+    <string name="learn_collapse">SHOW LESS</string>
+    <string name="title_activity_centered_app_compat">CenteredAppCompat</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.jackrabbitmobile.toned.WorkoutDetailActivity">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/workout_detail_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="com.jackrabbitmobile.toned.WorkoutDetailActivity">
+
+            <ImageView
+                android:id="@+id/detail_header_image"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/exercise_detail_header_height"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop" />
+
+
+            <LinearLayout
+                android:id="@+id/exercises_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detail_header_image"
+                android:layout_marginBottom="4dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/action_button"
+        android:layout_width="@dimen/fab_width"
+        android:layout_height="@dimen/fab_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/fab_margin_bottom"
+        android:layout_marginEnd="@dimen/fab_margin_end"
+        android:elevation="1dp"
+        android:importantForAccessibility="yes"
+        android:src="@drawable/workout_fab_badge"
+        app:layout_anchor="@+id/top"
+        app:layout_anchorGravity="right|bottom" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tagline"
+        android:background="@drawable/ic_start_workout_tagline"
+        android:baselineAlignBottom="false"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/action_button"
+        android:layout_marginBottom="@dimen/fab_tag_margin_bottom" />
+
+</RelativeLayout>

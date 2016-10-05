@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/toned_pink</item>
+        <item name="colorPrimaryDark">@color/toned_dark_pink</item>
+        <item name="colorAccent">@color/toned_accent</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Style for workout listview -->
+    <style name="WorkoutListStyle">
+        <!-- Here it's a stub.  In screens of sufficient width, this style includes modifications
+        for two-pane layout -->
+
+    </style>
+
+</resources>

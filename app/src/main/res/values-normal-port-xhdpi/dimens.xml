@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Exercise row -->
+    <dimen name="exercise_row_padding">6dp</dimen>
+    <dimen name="exercise_row_height">150dp</dimen>
+    <dimen name="exercise_margin_end">8dp</dimen>
+    <dimen name="exercise_number_size">18sp</dimen>
+    <dimen name="exercise_image_container_width">80dp</dimen>
+    <dimen name="exercise_image_container_height">80dp</dimen>
+    <dimen name="exercise_image_play_width">36dp</dimen>
+    <dimen name="exercise_image_play_height">36dp</dimen>
+
+    <!-- Exercise timer -->
+    <dimen name="timer_width">76dp</dimen>
+    <dimen name="timer_height">76dp</dimen>
+    <dimen name="timer_progress_width">74dp</dimen>
+    <dimen name="timer_progress_height">74dp</dimen>
+    <dimen name="timer_text_size">40sp</dimen>
+    <dimen name="timer_text_padding_end">5dp</dimen>
+    <dimen name="exercise_check_width">38dp</dimen>
+    <dimen name="exercise_check_height">38dp</dimen>
+
+    <!-- Exercise detail -->
+    <dimen name="exercise_detail_header_height">210dp</dimen>
+    <dimen name="timer_text_padding_bottom">0dp</dimen>
+
+    <!-- Floating action button -->
+    <dimen name="fab_width">100dp</dimen>
+    <dimen name="fab_height">100dp</dimen>
+    <dimen name="fab_margin_bottom">46dp</dimen>
+    <dimen name="fab_margin_end">38dp</dimen>
+    <dimen name="fab_tag_margin_bottom">15dip</dimen>
+
+    <!-- Subscribe -->
+    <dimen name="subscribe_button_margin">2dp</dimen>
+    <dimen name="workout_description_height">55dp</dimen>
+
+</resources>

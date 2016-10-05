@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:elevation="4dp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:elevation="4dp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.jackrabbitmobile.toned.util.RobotoTextView
+                    android:id="@+id/feedback_title_settings"
+                    android:text="@string/feedback_and_support"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/grey"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"/>
+
+                <RelativeLayout
+                    android:id="@+id/natalie_message_layout"
+                    android:layout_below="@+id/feedback_title_settings"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/icon_settings_message"
+                        android:src="@drawable/icon_request_feature"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jackrabbitmobile.toned.util.RobotoTextView
+                        android:text="Send Natalie a \nMessage"
+                        android:layout_toRightOf="@+id/icon_settings_message"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="32dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_below="@+id/natalie_message_layout"
+                    android:layout_margin="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/request">
+
+                    <ImageView
+                        android:id="@+id/icon_settings_feature"
+                        android:src="@drawable/icon_send_message"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <com.jackrabbitmobile.toned.util.RobotoTextView
+                        android:text="Request a \nFeature"
+                        android:layout_toRightOf="@+id/icon_settings_feature"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="32dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:elevation="4dp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.jackrabbitmobile.toned.util.RobotoTextView
+                    android:id="@+id/share_title_settings"
+                    android:text="@string/share_the_love"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/grey"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"/>
+
+                <RelativeLayout
+                    android:id="@+id/title_settings_text"
+                    android:layout_below="@+id/share_title_settings"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/icon_settings_text"
+                        android:src="@drawable/icon_text_friend"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.jackrabbitmobile.toned.util.RobotoTextView
+                        android:text="Text a \nFriend"
+                        android:layout_toRightOf="@+id/icon_settings_text"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="32dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_below="@+id/title_settings_text"
+                    android:layout_margin="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/rate">
+
+                    <ImageView
+                        android:id="@+id/icon_settings_rate"
+                        android:src="@drawable/icon_rate_us"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <com.jackrabbitmobile.toned.util.RobotoTextView
+                        android:text="Rate Us"
+                        android:layout_toRightOf="@+id/icon_settings_rate"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="32dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:elevation="4dp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.jackrabbitmobile.toned.util.RobotoTextView
+                    android:id="@+id/legal_title_settings"
+                    android:text="@string/settings_legal"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/grey"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"/>
+
+                <RelativeLayout
+                    android:id="@+id/policy_container"
+                    android:layout_below="@+id/legal_title_settings"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_policy"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@android:drawable/star_off" />
+
+                    <com.jackrabbitmobile.toned.util.RobotoTextView
+                        android:text="@string/setting_privacy"
+                        android:layout_toEndOf="@+id/image_policy"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="32dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/link_policy"
+                        android:autoLink="web" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_below="@+id/policy_container"
+                    android:layout_margin="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/terms_container">
+
+                    <ImageView
+                        android:id="@+id/image_terms"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@android:drawable/star_off" />
+
+
+                    <com.jackrabbitmobile.toned.util.RobotoTextView
+                        android:text="@string/settings_terms"
+                        android:layout_toEndOf="@+id/image_terms"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="32dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:id="@+id/link_terms" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <com.jackrabbitmobile.toned.util.RobotoLightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/version"
+            android:textColor="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/exit_activity_subscribe"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="@android:color/transparent"
+        android:layout_marginEnd="20dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/circular_page_indicator"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="120dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_below="@id/circular_page_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--
+        For use if there are any issues with ViewPagerIndicator library
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pager_title_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:background="@android:color/transparent"
+            android:textColor="@color/toned_pink" />
+            -->
+
+    </android.support.v4.view.ViewPager>
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <RelativeLayout
+            android:background="@drawable/light_round_white_button"
+            android:layout_alignParentStart="true"
+            android:id="@+id/monthly_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/space"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/subscribe_button_margin">
+
+            <com.jackrabbitmobile.toned.util.RobotoTextView
+                android:text="@string/subscription_monthly"
+                android:textColor="@color/black"
+                android:layout_alignParentTop="true"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.jackrabbitmobile.toned.util.RobotoTextView
+                android:text="@string/subscription_monthly_price"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/space" />
+
+        <RelativeLayout
+            android:background="@drawable/light_round_pink_button"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/yearly_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/space"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/subscribe_button_margin">
+
+            <com.jackrabbitmobile.toned.util.RobotoTextView
+                android:text="@string/subscription_yearly"
+                android:textColor="@color/white"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.jackrabbitmobile.toned.util.RobotoTextView
+                android:text="@string/subscription_yearly_price"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

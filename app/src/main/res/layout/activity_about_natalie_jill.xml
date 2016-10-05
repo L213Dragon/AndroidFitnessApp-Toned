@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="54dp"
+        android:paddingTop="4dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <fragment
+                android:name="com.jackrabbitmobile.toned.MyYoutubePlayerFragment"
+                android:id="@+id/you_tube_player_fragment"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_alignParentTop="true"
+                android:layout_height="wrap_content"/>
+
+            <com.jackrabbitmobile.toned.util.RobotoTextView
+                android:id="@+id/a_message_from_text_view"
+                android:text="@string/a_message_from_natalie"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"
+                android:layout_below="@+id/you_tube_player_fragment"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.jackrabbitmobile.toned.util.RobotoTextView
+                android:id="@+id/scrollable_text_view_about_natalie_jill"
+                android:layout_below="@+id/a_message_from_text_view"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:lineSpacingMultiplier="1.4"
+                android:text="@string/about_paragraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/go_premium_bt_about_natalie_jill"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_pink_background_button"
+        android:text="@string/go_premium"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:letterSpacing=".1"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"/>
+
+
+</RelativeLayout>

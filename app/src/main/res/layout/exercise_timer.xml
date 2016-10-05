@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/timer_width"
+    android:layout_height="@dimen/timer_height">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/timer_container">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/timer_progress_width"
+            android:layout_height="@dimen/timer_progress_height"
+            android:indeterminate="false"
+            android:max="60"
+            android:progress="60"
+            android:progressDrawable="@drawable/exercise_timer_progress_background" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/timer_progress_width"
+            android:layout_height="@dimen/timer_progress_height"
+            android:indeterminate="false"
+            android:max="60"
+            android:progress="0"
+            android:progressDrawable="@drawable/exercise_timer_progress_bar" />
+
+        <com.jackrabbitmobile.toned.util.RobotoLightTextView
+            android:id="@+id/exercise_timer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/timer_text_size"
+            android:textColor="@color/toned_pink"
+            android:text="@string/exercise_timer_text_default"
+            android:singleLine="false"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:paddingEnd="@dimen/timer_text_padding_end"
+            android:paddingStart="0dp"
+            android:paddingBottom="@dimen/timer_text_padding_bottom" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="@dimen/exercise_check_width"
+        android:layout_height="@dimen/exercise_check_height"
+        android:id="@+id/exercise_complete_check"
+        android:src="@drawable/exercise_check_statelist"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        android:layout_alignParentStart="false"
+        android:background="#00ffffff"
+        android:visibility="visible" />
+
+</RelativeLayout>

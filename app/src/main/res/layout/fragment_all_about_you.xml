@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <com.jackrabbitmobile.toned.util.RobotoTextView
+        android:id="@+id/all_about_you_title"
+        android:text="@string/all_about_you_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <com.jackrabbitmobile.toned.util.RobotoTextView
+        android:id="@+id/all_about_you_description"
+        android:text="@string/all_about_you_description"
+        android:layout_margin="12dp"
+        android:textColor="@color/grey_700"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/all_about_you_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/unlimited_image"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/all_about_you"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/all_about_you_description"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp" />
+
+</RelativeLayout>

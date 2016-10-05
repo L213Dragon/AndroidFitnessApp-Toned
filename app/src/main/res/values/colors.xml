@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#B6B6B6</color>
+    <color name="grey_700">#727272</color>
+    <color name="black">#212121</color>
+    <color name="text_dark">#ACACAC</color>
+
+    <color name="bookmark_active">#FFFFFF</color>
+    <color name="bookmark_inactive">#FC9BC6</color>
+
+    <color name="toned_light_pink">#F8BBD0</color>
+    <color name="toned_pink">#F9378D</color>
+    <color name="toned_dark_pink">#E91E63</color>
+    <color name="toned_accent">#F9378D</color>
+
+    <color name="toned_text_blue">#3F454D</color>
+
+    <!-- Colors for CardLib -->
+    <color name="card_thumbnail_image_text_over_textcolor">#FFF</color>
+
+    <color name="card_topcolored_title_textcolor">#FFF</color>
+    <color name="card_topcolored_subtitle_textcolor">#80FFFFFF</color>
+
+</resources>

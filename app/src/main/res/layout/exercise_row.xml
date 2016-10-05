@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/grey_top"
+    android:layout_height="@dimen/exercise_row_height"
+    android:paddingStart="@dimen/exercise_row_padding"
+    android:paddingEnd="@dimen/exercise_row_padding">
+
+    <com.jackrabbitmobile.toned.util.RobotoTextView
+        android:id="@+id/number_text_row"
+        android:text="0"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginEnd="@dimen/exercise_margin_end"
+        android:textSize="@dimen/exercise_number_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/image_container"
+        android:layout_width="@dimen/exercise_image_container_width"
+        android:layout_height="@dimen/exercise_image_container_height"
+        android:layout_marginEnd="@dimen/exercise_margin_end"
+        android:layout_toEndOf="@+id/number_text_row"
+        android:layout_centerVertical="true">
+
+        <com.parse.ParseImageView
+            android:id="@+id/exercise_image_row"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5" />
+
+        <ImageView
+            android:layout_width="@dimen/exercise_image_play_width"
+            android:layout_height="@dimen/exercise_image_play_height"
+            android:id="@+id/imageView"
+            android:src="@drawable/play_video"
+            android:scaleType="fitCenter"
+            android:cropToPadding="false"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_toEndOf="@+id/image_container"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exercise_info"
+        android:layout_toLeftOf="@+id/exercise_timer">
+
+
+        <com.jackrabbitmobile.toned.util.RobotoTextView
+            android:id="@+id/exercise_title_row"
+            android:text="Intense bonus exercise"
+            android:layout_margin="4dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee" />
+
+
+        <com.jackrabbitmobile.toned.util.RobotoTextView
+            android:id="@+id/exercise_reps_row"
+            android:text="Create your own routine!"
+            android:layout_margin="4dp"
+            android:textColor="@color/toned_text_blue"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exercise_title_row"
+            android:singleLine="true"
+            android:ellipsize="marquee" />
+
+    </RelativeLayout>
+
+    <com.jackrabbitmobile.toned.util.ExerciseTimer
+        android:id="@+id/exercise_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:elevation="5dp"
+        android:longClickable="false"
+        app:progress="0"
+        android:alpha="0.0" />
+
+</RelativeLayout>

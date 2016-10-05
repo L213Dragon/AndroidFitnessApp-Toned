@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context=".MainActivity" >
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--fix:YouTube video playback stopped due to unauthorized overlay on top of player.-->
+    <!--<ImageButton android:id="@+id/buttonClose"-->
+        <!--android:src="@drawable/ic_cancel_white_24dp"-->
+        <!--android:layout_width="60sp"-->
+        <!--android:layout_height="60sp"-->
+        <!--android:gravity="center"-->
+        <!--android:background="@null"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="@string/video_close_button"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!--android:layout_marginEnd="30dp"-->
+        <!--android:layout_marginTop="28dp"-->
+        <!--android:contentDescription="@string/descriptor_close_video_button"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+</RelativeLayout>
